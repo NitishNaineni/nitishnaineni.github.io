@@ -1,3 +1,13 @@
+---
+layout: page
+title: Chess Bot
+description: 
+img: assets/img/chess.jpeg
+importance: 1
+category: fun
+giscus_comments: true
+---
+
 [GitHub - NitishNaineni/Chess-Challenge](https://github.com/NitishNaineni/Chess-Challenge)
 
 ## Description
