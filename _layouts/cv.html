@@ -85,6 +85,8 @@ layout: default
           {% case data[0] %}
             {% when "basics" %}
               {% include resume/basics.html %}
+            {% when "skills" %}
+              {% include resume/skills.html %}
             {% when "education" %}
               {% include resume/education.html %}
             {% when "work" %}
@@ -95,8 +97,6 @@ layout: default
               {% include resume/projects.html %}
             {% when "awards" %}
               {% include resume/awards.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
             {% when "publications" %}
               {% include resume/publications.html %}
             {% when "languages" %}

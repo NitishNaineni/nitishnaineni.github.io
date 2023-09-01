@@ -19,22 +19,23 @@
   },
   "skills": [
     {
-      "category": "Expertise",
-      "items": ["MLOps", "Computer vision", "Deep learning", "Reinforcement learning", "Control systems", "SLAM"]
+      "name": "Expertise",
+      "keywords": ["MLOps", "Computer vision", "Deep learning", "Reinforcement learning", "Control systems", "SLAM"]
     },
     {
-      "category": "Languages",
-      "items": ["Python", "C++", "SQL", "MATLAB"]
+      "name": "Languages",
+      "keywords": ["Python", "C++", "SQL", "MATLAB"]
     },
     {
-      "category": "Libraries",
-      "items": ["TensorFlow", "Keras", "PyTorch", "spaCy", "OpenCV", "Pandas", "Sklearn", "NumPy", "Matplotlib"]
+      "name": "Libraries",
+      "keywords": ["TensorFlow", "Keras", "PyTorch", "spaCy", "OpenCV", "Pandas", "Sklearn", "NumPy", "Matplotlib"]
     },
     {
-      "category": "Tools",
-      "items": ["MySQL", "Apache Cassandra", "AWS", "Apache Spark", "DataBricks", "Git", "ROS", "Docker"]
+      "name": "Tools",
+      "keywords": ["MySQL", "Apache Cassandra", "AWS", "Apache Spark", "DataBricks", "Git", "ROS", "Docker"]
     }
   ],
+
   "work": [
     {
       "name": "University At Buffalo, Buffalo, NY",
@@ -167,24 +168,29 @@
   "references": [],
   "projects": [
     {
-      "title": "Uncertainty estimation using deep ensembles",
-      "technologies": ["Bayesian neural networks", "Pytorch"],
-      "description": "This project uses deep ensembles, akin to Bayesian neural networks, to better quantify prediction uncertainties in Deep Learning. By training an ensemble of models to predict varying results for the same input, the variance across these predictions measures the uncertainty. High variance, especially for adversarial samples, indicates greater uncertainty."
+      "url": "https://github.com/NitishNaineni/Fast-Adv-Ensemble",
+      "name": "Uncertainty estimation using deep ensembles",
+      "summary": "This project uses deep ensembles, akin to Bayesian neural networks, to better quantify prediction uncertainties in Deep Learning. By training an ensemble of models to predict varying results for the same input, the variance across these predictions measures the uncertainty. High variance, especially for adversarial samples, indicates greater uncertainty.",
+      "highlights": ["Bayesian neural networks", "Pytorch"]
     },
     {
-      "title": "Monocular depth estimation",
-      "technologies": ["Python", "Computer Vision", "Deep learning"],
-      "description": "Estimating depth of a scene with monocular vision using transfer learning. The model uses pretrained densenet as an encoder and a decoder to extract depth from the encoded data. This results in a comparable depth estimation to binocular vision."
+      "url": "https://github.com/CSE-676-final-project/Monocular-Depth-Estimation",
+      "name": "Monocular depth estimation",
+      "summary": "Estimating depth of a scene with monocular vision using transfer learning. The model uses pretrained densenet as an encoder and a decoder to extract depth from the encoded data. This results in a comparable depth estimation to binocular vision.",
+      "highlights": ["Python", "Computer Vision", "Deep learning"]
     },
     {
-      "title": "Multi agent flocking",
-      "technologies": ["Python", "Reinforcement learning", "Pytorch", "PettingZoo"],
-      "description": "The project deals with a swarm emergent learning system. An approach with multiple autonomous agents which can move in a continuous space by avoiding being caught by a single or multiple predators. The agents use DDPG with awareness of surrounding allies and predators to develop a flocking behavior to avoid the predators."
+      "url": "https://github.com/UB-RL-Spring-2022-Team-25/Multi-Agent-Flocking/tree/dev",
+      "name": "Multi agent flocking",
+      "summary": "The project deals with a swarm emergent learning system. An approach with multiple autonomous agents which can move in a continuous space by avoiding being caught by a single or multiple predators. The agents use DDPG with awareness of surrounding allies and predators to develop a flocking behavior to avoid the predators.",
+      "highlights": ["Python", "Reinforcement learning", "Pytorch", "PettingZoo"]
     },
     {
-      "title": "Panorama stitching using gradient matching",
-      "technologies": ["Python", "OpenCV", "NumPy", "matplotlib"],
-      "description": "Utilized ORB feature descriptors to stitch multiple images, employing Depth First Search for matching and propagation. Gradient matching was applied to remove differing foreground moving objects in overlapping areas, ensuring preservation of similar gradient image segments."
+      "url": "https://github.com/NitishNaineni/Mosaic_Panorama",
+      "name": "Panorama stitching using gradient matching",
+      "summary": "Utilized ORB feature descriptors to stitch multiple images, employing Depth First Search for matching and propagation. Gradient matching was applied to remove differing foreground moving objects in overlapping areas, ensuring preservation of similar gradient image segments.",
+      "highlights": ["Python", "OpenCV", "NumPy", "matplotlib"]
     }
   ]
+
 }
