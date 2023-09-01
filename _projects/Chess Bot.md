@@ -11,7 +11,7 @@ giscus_comments: true
 [GitHub - NitishNaineni/Chess-Challenge](https://github.com/NitishNaineni/Chess-Challenge)
 
 ## Description
-[![Alt text](https://img.youtube.com/vi/iScy18pVR58/maxresdefault.jpg)](https://www.youtube.com/watch?v=iScy18pVR58)
+[![Alt text](https://img.youtube.com/vi/iScy18pVR58/hqdefault.jpg)](https://www.youtube.com/watch?v=iScy18pVR58)
 
 This project was done as a submission to Sebastian Lague’s Chess Coding Challenge (C#). The goal of the competition is for the participants to make a small chess bot with the rules of the challenge and bid them against one another to see which is better. Given the constraints of the challenge, the only feasible solutions was an algorithmic implementation. The resources used for this challenge have been cited at the end.
 
