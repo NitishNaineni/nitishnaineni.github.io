@@ -21,8 +21,11 @@ function updateBrowserURL(iframeURL) {
 }
 
 var currentURL = window.location.href;
+console.log("Current URL: " + currentURL);  // Logging the current URL
+
 if (currentURL.includes("{{ site.baseurl }}/projects/")) {
     var iframeURL = currentURL.replace("{{ site.baseurl }}", "https://nitishnaineni.super.site");
+    console.log("Updated iframe URL: " + iframeURL);  // Logging the updated iframe URL
+
     document.getElementById('projectsFrame').src = iframeURL;
 }
-</script>
