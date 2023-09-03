@@ -2,12 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects.
+description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
 ---
 
-<iframe id="projectsFrame" src="https://nitishnaineni.super.site/projects/" width="100%" height="800px"></iframe>
+<iframe id="projectsFrame" src="https://nitishnaineni.super.site/projects/" width="100%" height="800px" frameborder="0"></iframe>
 
 <script>
 document.getElementById('projectsFrame').addEventListener('load', function() {
