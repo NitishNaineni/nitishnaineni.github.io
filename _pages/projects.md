@@ -30,3 +30,4 @@ if (currentURL.includes("{{ site.baseurl }}/projects/")) {
 
     document.getElementById('projectsFrame').src = iframeURL;
 }
+</script>
